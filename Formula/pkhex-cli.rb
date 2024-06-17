@@ -1,17 +1,17 @@
 class PkhexCli < Formula
-  version "v0.1.0"
+  version "v0.1.1"
   desc "A CLI to manipulate pokemon game save files."
   homepage "https://github.com/arleypadua/PKHeX.CLI"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/arleypadua/PKHeX.CLI/releases/download/v0.1.0/pkhex-cli-osx-arm64.zip"
-    sha256 "e040672ea2eba5e8bd2072ea882e85f690d7271cfafd3049e59c234bad91d4f8"
+    url "https://github.com/arleypadua/PKHeX.CLI/releases/download/v0.1.1/pkhex-cli-osx-arm64.zip"
+    sha256 "ef783200e542f51732e877517b963d4c2d1749bddf6b534d8834e77650008116"
   elsif OS.mac?
-    url "https://github.com/arleypadua/PKHeX.CLI/releases/download/v0.1.0/pkhex-cli-osx-x64.zip"
-    sha256 "79185dc9392b01c77e72116153b1bcb9a9109aefcdb1d6ee6c5d599a2c8f6cf9"
+    url "https://github.com/arleypadua/PKHeX.CLI/releases/download/v0.1.1/pkhex-cli-osx-x64.zip"
+    sha256 "8e7204a8b23d980bb1f3bdab7ac0f16028ff654d31f7dc799b5a2a0825882cfa"
   elsif OS.linux?
-    url "https://github.com/arleypadua/PKHeX.CLI/releases/download/v0.1.0/pkhex-cli-linux-x64.zip"
-    sha256 "6227880b9838f7fa54c5c7589e9b263ec69f04dbf73b2c963e3d33691cd14275"
+    url "https://github.com/arleypadua/PKHeX.CLI/releases/download/v0.1.1/pkhex-cli-linux-x64.zip"
+    sha256 "d951d9dd072a73e43e8761633705f7a5a88d99475694313a3034f0e3c12fe196"
   end
 
   def install
